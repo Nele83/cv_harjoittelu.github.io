@@ -1,0 +1,79 @@
+body {
+    margin: 20px;
+    padding:0;
+    background-color:#ffffff;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:1em;/*koko sivun tekstikoko muuten jos ei erikseen mainita*/
+    }
+    /* a{text-decoration:none; color:red;} tekee yläreunan laatikosta näkymättömän */
+    
+
+blockquote { /*yläreunan laatikko*/
+margin:1em;/*saa siirettyä laatikkoa yksinään*/
+padding:.1em;/*tekstin asettelu*/
+font-size:.9em;/*tekstikoko*/
+background-color:#F3F2ED;
+border-top:2px solid #999999;/*laatikon yläreunan viivan paksuus*/
+border-bottom:2px solid #999999;/*laatikon alareunan paksuus*/
+position: relative;
+right: 0px; /*siirtää laatikon reunaa*/
+height: 150px;
+}
+
+
+
+#heder {/*harmaanlaatikon sisällä olevat teksti asennus*/
+margin: 1em 5em 0 2em;
+}
+
+#content /*harmaa laatikko*/
+{
+float: left;/*siirtää koko laatikon vasemmalle*/
+text-align: left;
+
+margin:1em;
+width: 200px;/*laatikon leveys*/
+right: 10px;
+top: 10px;
+background-color: gray;
+padding: 50px;
+}
+
+
+h3{/*kuvan alapuollella oleva kaikki h3 rivit*/
+color:white;
+font-size: 0.9em;
+}
+
+p {
+font: 1em sans-serif;/* muuttaa myös olen positiivisen kohdan?*/
+}
+   
+    /*html>body #centerColumn {
+    float: left;
+    text-align: left;
+    border-top:1px solid #999999;
+    margin-left:17.50em;
+    margin-right:2.25em;
+    }*/
+    
+   
+
+/*kuvakoon pienentäminen*/
+    .smaller-image{ 
+        width: 100px;   
+    }
+    .thick-gray-border { /*valokuvan kehykset*/
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20%;
+    margin:1em;   
+    }
+    footer {
+        
+        padding: 1px;
+        
+        text-align: center;
+        color: white;
+      } 
